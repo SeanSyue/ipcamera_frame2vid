@@ -9,7 +9,7 @@ int main()
 {
 	VideoCapture cap1;
 	VideoCapture cap2;
-	if (!cap1.open("http://avlabadmin:avlab32343738@140.118.45.30/img/video.mjpeg")) // rtsp://avlabadmin:avlab32343738@140.118.199.217:555/img/video.sav
+	if (!cap1.open("LiveVideo.mjpeg"))
 	{
 		std::cout << "Error Opening Video Stream1" << std::endl;
 	};
